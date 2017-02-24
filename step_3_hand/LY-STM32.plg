@@ -1,0 +1,19 @@
+<html>
+<body>
+<pre>
+<h1>礦ision3 Build Log</h1>
+<h2>Project:</h2>
+E:\ZXKJ\LY-STM32\LY-STM32 光盘资料\课程\1.基础篇\17.printf 重定向\程序\LY-STM32.uv2
+Project File Date:  08/05/2013
+
+<h2>Output:</h2>
+Build target 'LY-STM32'
+compiling main.c...
+USR\main.c(17): warning:  #177-D: variable "d1" was declared but never referenced
+USR\main.c(18): warning:  #177-D: variable "d2" was declared but never referenced
+USR\main.c(19): warning:  #177-D: variable "d3" was declared but never referenced
+compiling pbdata.c...
+linking...
+Program Size: Code=4460 RO-data=336 RW-data=44 ZI-data=1028  
+FromELF: creating hex file...
+"LY-STM32.axf" - 0 Error(s), 3 Warning(s).

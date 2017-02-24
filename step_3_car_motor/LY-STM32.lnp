@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+".\startup_stm32f10x_hd.o"
+".\main.o"
+".\pbdata.o"
+".\stm32f10x_it.o"
+".\imu.o"
+".\step_motor.o"
+".\bsp_spi_nrf.o"
+".\bsp_car.o"
+".\stm32f10x_gpio.o"
+".\stm32f10x_rcc.o"
+".\misc.o"
+".\stm32f10x_exti.o"
+".\stm32f10x_tim.o"
+".\stm32f10x_usart.o"
+".\stm32f10x_spi_1.o"
+".\core_cm3.o"
+".\system_stm32f10x.o"
+--library_type=microlib --strict --scatter ".\LY-STM32.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\LY-STM32.map" -o .\LY-STM32.axf
